@@ -9,10 +9,12 @@
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
-  <remote fetch="git://github.com/embeddedartists"  name="EA"/>
+  <remote fetch="git://github.com/embeddedartists"  name="EA"/> 
+  <remote fetch="git://github.com/Hercho"  name="hercho"/>
 
   <project remote="yocto" revision="f20e4c0cf6ddb29a1aad6e7b095e1472e81d330c" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="b74e5e690d8d4e149ea9de3f0fcca37bad93935f" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="hercho" revision="36269f00629a25b1214ee586dbed7005b7c98ce0" name="ffmpeg" path="sources/poky/meta/recipes-multimedia/ffmpeg"/>
 
   <project remote="oe" revision="7bbacd0023fa1111da94ba0b2aafd7d872301ffe" name="meta-openembedded" path="sources/meta-openembedded"/>
 

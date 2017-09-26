@@ -35,7 +35,7 @@
      <copyfile src="ea-setup-release_4_1_15.sh" dest="ea-setup-release.sh"/>
   </project>
 
- <project remote="hercho" revision="5d494d2cb2a2240856cc6f142478a1def312de3e" name="meta-inti" path="sources/meta-inti">
+ <project remote="hercho" revision="c719794a0b9234ed8a69d5220c324a2ce07cbca6" name="meta-inti" path="sources/meta-inti">
         <copyfile src="inti-setup-env.sh" dest="inti-setup-release.sh"/>
   </project>
 
